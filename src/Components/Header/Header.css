@@ -1,0 +1,38 @@
+.logo-img{
+    display: block;
+    width: 100px;
+}
+.header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    /* gap: 25rem; */
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.signupbtn button {
+    background-color: black; /* Example button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    font-size: 20px;
+  }
