@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.inside-meet-up{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.bigwords{
+    font-size: 40px;
+    /* border: 2px solid red; */
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  text-align: left;
+}
+.smallwords{
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    /* border: 2px solid brown; */
+    width: 650px;
+}
+.buttons{
+    display: flex;
+    gap: 2rem;
+    /* align-items: center; */
+    padding: 10px;
+    /* justify-content: center; */
+}
+.Meet-us{
+    padding: 50px;
+}
+
+.btn1{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+
+
+}
+.btn2{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
