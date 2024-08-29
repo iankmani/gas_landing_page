@@ -2,9 +2,13 @@ import React from 'react'
 import './Home.css'
 import manholdinggas from '../../assets/manholdinggas.jpeg'
 
+//page links
+import Efficiency from '../Efficiency'
+
 const Home = () => {
   return (
-    <section className="Meet-us">
+    <>
+    <section className="HomePage">
         <div className="inside-meet-up">
             <div className="words-part">
                 <div className="bigwords">
@@ -16,7 +20,7 @@ const Home = () => {
                 </div>
                 <div className="buttons">
                     <button className="btn1">Learn More</button>
-                    <button className="btn2">Sign up</button>
+                    {/* <button className="btn2">Sign up</button> */}
 
                 </div>
             </div>
@@ -25,6 +29,10 @@ const Home = () => {
             </div>
         </div>
     </section>
+    <Efficiency/>
+    </>
+    
+
   )
 }
 

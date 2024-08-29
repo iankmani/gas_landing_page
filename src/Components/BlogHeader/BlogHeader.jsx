@@ -1,8 +1,8 @@
 import React from 'react'
 import gaslogo from '../../assets/gaslogo.jpeg'
-import './Header.css'
+import './BlogHeader.css'
 
-const Header = () => {
+const BlogHeader = () => {
   return (
     <section className="header">
         <div className="headerlogo">
@@ -16,11 +16,11 @@ const Header = () => {
                 <li><a href="#">More</a></li>
             </ul>
         </div>
-        <div className="signupbtn">
+        {/* <div className="signupbtn">
             <button>Sign up</button>
-        </div>
+        </div> */}
     </section>
   )
 }
 
-export default Header
+export default BlogHeader

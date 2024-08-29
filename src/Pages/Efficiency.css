@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.efficiency-page{
+    padding: 30px;
+}
+.efficiency{
+    text-align: center;
+    font-weight: bold;
+}
+.assuarance{
+    font-size: 40px;
+    /* border: 2px solid red; */
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.efficiency-paragraph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+    padding: 15px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.align{
+    text-align: center;
+}
+.leftside-eff{
+    /* border: 2px solid red; */
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: 10px;
+}
+.efficiency-center{
+    padding: 20px;
+    display: flex;
+    /* border: 2px solid red; */
+
+    
+}
+.middle-eff{
+    display: flex;
+
+}
+.eff-image{
+    width: 400px;
+}
+.firstleft{
+    /* margin-bottom: 20px; */
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.eff-icon{
+    font-size: 25px;
+}
+.eff-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eff-btn button{
+    padding: 10px 20px;
+    border-color: rgb(103,103,103);
+    background-color: white;
+    cursor: pointer;
+}
