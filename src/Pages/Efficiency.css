@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    color: rgb(168, 156, 156);
 
 
     padding: 15px;
@@ -34,6 +35,8 @@
 }
 .align{
     text-align: center;
+    color: rgb(168, 156, 156);
+    
 }
 .leftside-eff{
     /* border: 2px solid red; */

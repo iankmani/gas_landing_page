@@ -4,6 +4,7 @@ import manholdinggas from '../../assets/manholdinggas.jpeg'
 
 //page links
 import Efficiency from '../Efficiency'
+import Convinience from './Convinience'
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
         </div>
     </section>
     <Efficiency/>
+    <Convinience/>
     </>
     
 

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.convinienceSector{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 50px;
+
+
+}
+.conv-img{
+    width: 500px;
+}
+.conv-title{
+    font-size: 26px;
+    font-family: "Noto Sans", sans-serif;
+
+    
+}
+.leftConv{
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.conv-para{
+    color: midnightblue;
+}
