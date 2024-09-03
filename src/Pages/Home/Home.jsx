@@ -5,11 +5,13 @@ import manholdinggas from '../../assets/manholdinggas.jpeg'
 //page links
 import Efficiency from '../Efficiency'
 import Convinience from './Convinience'
+import Delivery from './Delivery'
+import Newsletter from './Newsletter'
 
 const Home = () => {
   return (
     <>
-    <section className="HomePage">
+    <section className="py-2 px-5 flex border-border-2  border-bg-slate-600 HomePage">
         <div className="inside-meet-up">
             <div className="words-part">
                 <div className="bigwords">
@@ -32,6 +34,8 @@ const Home = () => {
     </section>
     <Efficiency/>
     <Convinience/>
+    <Delivery/>
+    <Newsletter/>
     </>
     
 

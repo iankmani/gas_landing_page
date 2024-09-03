@@ -1,0 +1,39 @@
+.Newsletter{
+    border: 2px solid red;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.news-middle{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 20px;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+
+}
+.news-right{
+    margin-bottom: 20px;
+}
+.news-para{
+    margin-bottom: 20px;
+
+
+}
+.news-input input{
+    padding: 10px 45px 10px 25px;
+
+    
+}
+.news-subs-btn button{
+    padding: 10px 25px 10px 25px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.news-last-para{
+    font-size: 10px;
+
+}

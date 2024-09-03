@@ -12,14 +12,14 @@ const Convinience = () => {
                 <p className="eff-icon"><RiCheckboxCircleFill /></p>
                 <h1 className="conv-title">Convinience</h1>
                 <p className="conv-para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi reprehenderit praesentium ex incidunt. Facilis illo porro aspernatur similique perferendis.
+                </p>
+                {/* <p className="conv-para">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint?
                 </p>
                 <p className="conv-para">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint?
-                </p>
-                <p className="conv-para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint?
-                </p>
+                </p> */}
             </div>
             <div className="right-conv">
                 <div className="conv-image">

@@ -16,6 +16,8 @@
 .conv-title{
     font-size: 26px;
     font-family: "Noto Sans", sans-serif;
+    margin-bottom: 20px;
+
 
     
 }
@@ -24,7 +26,15 @@
     margin-left: 20px;
     padding: 50px;
     margin-bottom: 20px;
+    width: 700px;
 }
 .conv-para{
     color: midnightblue;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(168, 156, 156);
+
 }
